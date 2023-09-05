@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProblemSolving.Solutions.Easy
 {
-    public class TwoSum
+    internal class TwoSum
     {
         public int[] Solution(int[] nums, int target)
         {
@@ -27,12 +27,12 @@ namespace ProblemSolving.Solutions.Easy
         {
             try
             {
-                Console.Write("Enter numbers of an array: ");
+                Console.Write("Enter elements of an array separating with single space: ");
                 int[] numbers = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
                 Console.Write("Enter target number: ");
                 int targetNumber = int.Parse(Console.ReadLine());
                 int[] result = Solution(numbers, targetNumber);
-                Console.WriteLine($"Result: [{string.Join(", ", result)}]");
+                Console.WriteLine($"Result: [{string.Join(",", result)}]");
             }
             catch (InvalidOperationException e)
             {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProblemSolving.Solutions.Easy
 {
-    public class RomanToInt
+    internal class RomanToInt
     {
     }
 }

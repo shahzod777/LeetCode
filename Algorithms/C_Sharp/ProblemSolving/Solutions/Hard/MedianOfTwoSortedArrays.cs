@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProblemSolving.Solutions.Medium
+namespace ProblemSolving.Solutions.Hard
 {
-    internal class AddTwoNumbers
+    internal class MedianOfTwoSortedArrays
     {
     }
 }
