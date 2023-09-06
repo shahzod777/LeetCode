@@ -8,8 +8,9 @@ namespace ProblemSolving
     {
         static void Main(string[] args)
         {
-            TwoSum solution = new TwoSum();
-            solution.Run();
+            int[] array = new int[100];
+            array = Array.ConvertAll(Console.ReadLine().Split(" "), int.Parse);
+            Console.WriteLine($"({string.Join("+", array)})/{array.Length} = {array.Sum()/array.Length}");
         }
     }
 }
